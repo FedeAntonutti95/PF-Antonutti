@@ -94,3 +94,30 @@
 .mapa{
     height: 250px;
 }
+.formulario{
+    font-size: 18px;
+    margin: 30px auto;
+    width: 600px;
+    border-radius: 5px;
+    color: white;
+    background-color: #3bc759;
+    text-align: center;
+    padding: 30px;
+    margin-top: 20px;
+    display: grid;
+    row-gap: 10px;
+}
+.dato{
+    display: flex;
+    flex-direction: column;
+    border: none;
+    margin-bottom: 10px;
+}
+.boton-formulario{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 18px;
+    border: none;
+}
