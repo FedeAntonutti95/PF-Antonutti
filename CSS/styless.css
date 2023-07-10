@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navegador{
+    background-color: #3bc759;
+}
+
+.navegador ul li a{
+    color: red;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 25px;
+}
+.navegador ul{
+    display: flex;
+    justify-content: left;
+    list-style: none;
+}
+ 
+.carrousel{
+    height: 350px;
+    background-color: aqua;
+}
+
+.principal-index h1{
+    text-align: center;
+    font-style: normal;
+    color: red;
+}
+.principal-index p{
+    font-style: italic;
+}
+.tarjeta img{
+    height: 150px;
+    width: 355px;
+    align-items: center;
+}
+.tarjetas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.tarjeta{
+    border: solid 3px black;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 10px;
+}
+.tarjeta h4{
+    font-size: 22px;
+}
+.tarjeta button{
+    background-color: #3bc759;
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
