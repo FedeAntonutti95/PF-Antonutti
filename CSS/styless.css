@@ -32,9 +32,11 @@
     text-align: center;
     font-style: normal;
     color: red;
+    padding: 8px;
 }
 .principal-index p{
     font-style: italic;
+    padding: 5px;
 }
 .tarjeta img{
     height: 150px;
