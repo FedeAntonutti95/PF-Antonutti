@@ -108,6 +108,32 @@
 .mapa{
     height: 250px;
 }
+#quienes-somos .nosotros-portada{
+    display: flex;
+    justify-content: center;
+}
+#quienes-somos .texto-nosotros{
+    width: 50%;
+    text-align: initial;
+    padding: 0px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.texto-nosotros p{
+    margin-top: 20px;
+}
+.texto-nosotros h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: red;
+}
+#quienes-somos .img-nosotros{
+    background-image: url(../multimedia/img/imagenes\ nosotros.jpeg);
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    width: 400px;
+}
 .formulario{
     font-size: 18px;
     margin: 30px auto;
