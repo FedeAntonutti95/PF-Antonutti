@@ -5,24 +5,24 @@
 }
 
 .navegador{
-    background-color: #3bc759;
+    background-color: #063c68f1;
 }
 
 .navegador ul li a{
-    color: red;
+    color: rgb(248, 54, 54);
     display: block;
-    padding: 15px 5px;
+    padding: 15px 10px;
     text-decoration: none;
     font-size: 25px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
 .navegador ul{
     display: flex;
-    justify-content: left;
+    justify-content: initial;
     list-style: none;
 }
 .navegador ul li a:hover{
-    background-color: chartreuse;
+    background-color: rgba(77, 255, 240, 0.651);
 }
 @media(max-width:768px){
     .navegador ul{
@@ -35,17 +35,19 @@
     object-fit: cover;
 }
 .principal-index{
-    background-color: #3bc759;
+    background-color: #063c68f1;
 }
 .principal-index h1{
     text-align: center;
-    font-style: normal;
-    color: red;
-    padding: 8px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(255, 255, 255);
+    padding: 14px 0px 0px 0px;
 }
 .principal-index p{
     font-style: italic;
-    padding: 5px;
+    padding: 0px 10px 10px 10px;
+    text-align: center;
+    color: white;
 }
 .tarjetas{
     display: flex;
@@ -67,9 +69,12 @@
 }
 .tarjeta h4{
     font-size: 22px;
+    font-weight: bold;
+    color: red;
 }
+
 .tarjeta button{
-    background-color: #3bc759;
+    background-color: red;
     color: white;
     padding: 5px;
     border: none;
@@ -77,11 +82,11 @@
     margin-top: 10px;
 }
 .tarjeta button:hover{
-    background-color: red;
+    background-color: rgb(34, 226, 34);
     font-weight: bold;
 }
 .footer-index{
-    background-color: #3bc759;
+    background-color: #063c68f1;
     display: grid;
     grid-template-columns: 2fr 2fr;
     column-gap: 10px;
@@ -93,35 +98,40 @@
     padding: 10px;
 }
 .info-footer h3{
-    color: white;
+    color: rgb(248, 62, 62);
     text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.info-footer p{
+    font-weight: bold;
+    color: white;
 }
 .ubicacion{
     display: flex; 
     flex-direction: column;
     padding: 10px;
-}
-.ubicacion{
-    color: white;
+    color: rgb(248, 62, 62);
     text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .mapa{
     height: 250px;
 }
 #quienes-somos .nosotros-portada{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 #quienes-somos .texto-nosotros{
     width: 50%;
     text-align: initial;
-    padding: 0px 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 .texto-nosotros p{
     margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
 }
 .texto-nosotros h2{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -140,7 +150,7 @@
     width: 600px;
     border-radius: 5px;
     color: white;
-    background-color: #3bc759;
+    background-color: #063c68f1;
     text-align: center;
     padding: 30px;
     margin-top: 20px;
