@@ -18,7 +18,8 @@
     }
 }
 @media(max-width:768px){
-    .navegador ul{
-        justify-content: center;
+    .navegador{
+        align-items: center;
+        max-width: fit-content;
     }
 }
