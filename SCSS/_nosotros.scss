@@ -1,0 +1,27 @@
+#quienes-somos .nosotros-portada{
+    display: flex;
+    justify-content: space-evenly;
+    .img-nosotros{
+        background-image: url(../multimedia/img/imagenes\ nosotros.jpeg);
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 400px;
+    }
+    .texto-nosotros{
+        width: 50%;
+        text-align: initial;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        p{
+            margin-top: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bold;
+        }
+        h2{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: red;
+        }
+    }
+}

@@ -1,0 +1,38 @@
+.formulario{
+    font-size: 18px;
+    margin: 30px auto;
+    width: 600px;
+    border-radius: 5px;
+    color: white;
+    background-color: $bg-color;
+    text-align: center;
+    padding: 30px;
+    margin-top: 20px;
+    display: grid;
+    row-gap: 10px;
+    .dato{
+        display: flex;
+        flex-direction: column;
+        border: none;
+        margin-bottom: 10px;
+    }
+    .boton-formulario{
+        background-color: red;
+        color: white;
+        border-radius: 5px;
+        padding: 5px;
+        font-size: 18px;
+        border: none;
+        &:hover{
+            font-weight: bold;
+            background-color: black;
+        }
+    }
+}
+@media(max-width:768px){
+    .formulario{
+        background-color: chartreuse;
+        width: 400px;
+        padding: 10px;
+    }
+}
