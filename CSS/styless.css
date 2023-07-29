@@ -57,25 +57,24 @@
   justify-content: space-evenly;
   text-align: center;
 }
-
-.tarjeta {
+.tarjetas .tarjeta {
   border: solid 3px black;
   margin: 10px;
   display: flex;
   flex-direction: column;
   padding: 12px 10px;
 }
-.tarjeta img {
+.tarjetas .tarjeta img {
   height: 150px;
   width: 355px;
   margin-left: 18px;
 }
-.tarjeta h4 {
+.tarjetas .tarjeta h4 {
   font-size: 22px;
   font-weight: bold;
   color: red;
 }
-.tarjeta button {
+.tarjetas .tarjeta button {
   background-color: red;
   color: white;
   padding: 5px;
@@ -83,7 +82,7 @@
   border-radius: 5px;
   margin-top: 10px;
 }
-.tarjeta button:hover {
+.tarjetas .tarjeta button:hover {
   background-color: rgb(34, 226, 34);
   font-weight: bold;
 }
@@ -109,21 +108,29 @@
   font-weight: bold;
   color: white;
 }
-
-.ubicacion {
+.footer-index .ubicacion {
   display: flex;
   flex-direction: column;
 }
-.ubicacion h3 {
+.footer-index .ubicacion h3 {
   padding: 10px;
   color: rgb(248, 62, 62);
   text-align: center;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-.ubicacion .mapa {
+.footer-index .ubicacion .mapa {
   height: 250px;
 }
 
+@media (max-width: 768px) {
+  .footer-index {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-index .mapa {
+    max-width: fit-content;
+  }
+}
 #quienes-somos .nosotros-portada {
   display: flex;
   justify-content: space-evenly;

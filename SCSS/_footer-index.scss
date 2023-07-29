@@ -18,17 +18,26 @@
         color: white;
       }
     }
-}
-.ubicacion{
-    display: flex; 
-    flex-direction: column;
-    h3{
-    padding: 10px;
-    color: rgb(248, 62, 62);
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    .ubicacion{
+        display: flex; 
+        flex-direction: column;
+        h3{
+        padding: 10px;
+        color: rgb(248, 62, 62);
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .mapa{
+            height: 250px;
+        }
     }
-    .mapa{
-        height: 250px;
+}
+@media(max-width:768px){
+    .footer-index{
+        display: flex;
+        flex-direction: column;
+        .mapa{
+            max-width: fit-content;
+        }
     }
 }
