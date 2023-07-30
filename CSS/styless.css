@@ -166,14 +166,14 @@
 }
 
 .formulario {
-  font-size: 18px;
+  font-size: 17px;
   margin: 30px auto;
-  width: 600px;
+  width: 650px;
   border-radius: 5px;
   color: white;
   background-color: rgba(6, 60, 104, 0.9450980392);
   text-align: center;
-  padding: 30px;
+  padding: 20px 25px;
   margin-top: 20px;
   display: grid;
   row-gap: 10px;
@@ -183,7 +183,6 @@
   flex-direction: column;
   border: none;
   margin-bottom: 5px;
-  font-weight: bold;
 }
 .formulario .boton-formulario {
   background-color: red;
