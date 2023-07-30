@@ -4,6 +4,15 @@
   box-sizing: border-box;
 }
 
+.boton, .tarjetas .tarjeta button {
+  background-color: red;
+  color: white;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
 .navegador {
   background-color: rgba(6, 60, 104, 0.9450980392);
 }
@@ -74,14 +83,6 @@
   font-size: 22px;
   font-weight: bold;
   color: red;
-}
-.tarjetas .tarjeta button {
-  background-color: red;
-  color: white;
-  padding: 5px;
-  border: none;
-  border-radius: 5px;
-  margin-top: 10px;
 }
 .tarjetas .tarjeta button:hover {
   background-color: rgb(34, 226, 34);

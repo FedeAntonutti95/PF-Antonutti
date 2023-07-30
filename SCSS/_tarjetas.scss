@@ -20,7 +20,7 @@
             color: red;
         }
         button{
-            @include boton(red, white);
+            @extend .boton;
             &:hover{
                 background-color: rgb(34, 226, 34);
                 font-weight: bold;
