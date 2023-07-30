@@ -105,6 +105,7 @@
   color: red;
   text-align: center;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 30px;
 }
 .footer-index .info-footer p {
   font-weight: bold;
@@ -119,9 +120,10 @@
   color: red;
   text-align: center;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 30px;
 }
 .footer-index .ubicacion .mapa {
-  height: 250px;
+  height: 245px;
 }
 
 @media (max-width: 768px) {
