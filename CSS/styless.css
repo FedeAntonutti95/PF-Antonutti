@@ -22,7 +22,7 @@
   list-style: none;
 }
 .navegador ul li a {
-  color: rgb(248, 54, 54);
+  color: rgb(247, 39, 39);
   display: block;
   padding: 15px 10px;
   text-decoration: none;
@@ -30,7 +30,7 @@
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 .navegador ul li a:hover {
-  background-color: rgba(77, 255, 240, 0.651);
+  background-color: rgba(255, 255, 255, 0.973);
 }
 
 @media (max-width: 768px) {
@@ -46,7 +46,7 @@
 }
 
 .principal-index {
-  background-color: rgba(6, 60, 104, 0.9450980392);
+  background-image: linear-gradient(to right, rgba(6, 60, 104, 0.9450980392), red);
 }
 .principal-index h1 {
   text-align: center;
@@ -82,7 +82,7 @@
 .tarjetas .tarjeta h4 {
   font-size: 22px;
   font-weight: bold;
-  color: red;
+  color: rgba(66, 9, 9, 0.699);
 }
 .tarjetas .tarjeta button:hover {
   background-color: rgb(34, 226, 34);
@@ -102,7 +102,7 @@
   padding: 10px;
 }
 .footer-index .info-footer h3 {
-  color: rgb(248, 62, 62);
+  color: rgb(219, 19, 19);
   text-align: center;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
@@ -116,7 +116,7 @@
 }
 .footer-index .ubicacion h3 {
   padding: 10px;
-  color: rgb(248, 62, 62);
+  color: rgb(219, 19, 19);
   text-align: center;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
@@ -142,7 +142,7 @@
   background-size: cover;
   background-position: center center;
   height: 500px;
-  width: 400px;
+  width: 425px;
 }
 #quienes-somos .nosotros-portada .texto-nosotros {
   width: 50%;
@@ -152,13 +152,13 @@
   justify-content: center;
 }
 #quienes-somos .nosotros-portada .texto-nosotros p {
-  margin-top: 20px;
+  margin-top: 5px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: bold;
 }
 #quienes-somos .nosotros-portada .texto-nosotros h2 {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  color: red;
+  color: rgb(112, 11, 11);
 }
 #quienes-somos .nosotros-portada .texto-nosotros iframe {
   display: flex;
@@ -182,7 +182,8 @@
   display: flex;
   flex-direction: column;
   border: none;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
 }
 .formulario .boton-formulario {
   background-color: red;
