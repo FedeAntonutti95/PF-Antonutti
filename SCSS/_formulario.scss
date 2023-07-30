@@ -17,12 +17,7 @@
         margin-bottom: 10px;
     }
     .boton-formulario{
-        background-color: red;
-        color: white;
-        border-radius: 5px;
-        padding: 5px;
-        font-size: 18px;
-        border: none;
+        @include boton(red, white);
         &:hover{
             font-weight: bold;
             background-color: black;

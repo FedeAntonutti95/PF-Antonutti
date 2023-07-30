@@ -20,12 +20,7 @@
             color: red;
         }
         button{
-            background-color: red;
-            color: white;
-            padding: 5px;
-            border: none;
-            border-radius: 5px;
-            margin-top: 10px;
+            @include boton(red, white);
             &:hover{
                 background-color: rgb(34, 226, 34);
                 font-weight: bold;
