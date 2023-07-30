@@ -160,6 +160,10 @@
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   color: red;
 }
+#quienes-somos .nosotros-portada .texto-nosotros iframe {
+  display: flex;
+  align-items: center;
+}
 
 .formulario {
   font-size: 18px;
