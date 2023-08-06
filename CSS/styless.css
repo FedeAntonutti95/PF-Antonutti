@@ -227,6 +227,12 @@
   align-items: center;
 }
 
+@media (max-width: 768px) {
+  #quienes-somos .nosotros-portada {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .formulario {
   font-size: 17px;
   margin: 30px auto;
