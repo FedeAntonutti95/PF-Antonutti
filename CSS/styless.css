@@ -38,11 +38,47 @@
     align-items: center;
     max-width: fit-content;
   }
+  .navegador ul {
+    flex-direction: column;
+  }
+  .navegador ul li {
+    text-align: center;
+    padding: 10px;
+  }
+  .navegador ul li a {
+    font-size: 20px;
+  }
 }
-.carousel-item img {
-  width: 100%;
-  height: 450px;
-  object-fit: cover;
+.carousel {
+  margin-top: 20px;
+}
+@media (max-width: 768px) {
+  .carousel {
+    margin-top: 10px;
+  }
+}
+
+.carousel-inner {
+  position: relative;
+}
+
+.carousel-item {
+  display: none;
+}
+
+.carousel-item.active {
+  display: block;
+}
+
+.carousel-control-next {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+}
+@media (max-width: 768px) {
+  .carousel-control-next {
+    top: auto;
+    bottom: 0;
+  }
 }
 
 .principal-index {
@@ -52,13 +88,23 @@
   text-align: center;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   color: rgb(255, 255, 255);
-  padding: 14px 0px 0px 0px;
+  padding: 10px 0px 0px 0px;
+  font-size: 36px;
 }
 .principal-index p {
   font-style: italic;
-  padding: 0px 10px 10px 10px;
+  padding: 10px;
   text-align: center;
   color: white;
+  font-size: 16px;
+}
+@media (max-width: 768px) {
+  .principal-index h1 {
+    font-size: 24px;
+  }
+  .principal-index p {
+    font-size: 14px;
+  }
 }
 
 .tarjetas {
@@ -89,16 +135,20 @@
   font-weight: bold;
 }
 
+@media (max-width: 768px) {
+  .tarjeta {
+    width: calc(100% - 20px);
+    margin: 10px;
+  }
+}
 .footer-index {
   background-color: rgba(6, 60, 104, 0.9450980392);
-  display: grid;
-  grid-template-columns: 2fr 2fr;
-  column-gap: 10px;
   padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
 }
 .footer-index .info-footer {
-  display: flex;
-  flex-direction: column;
   padding: 10px;
 }
 .footer-index .info-footer h3 {
@@ -112,8 +162,7 @@
   color: white;
 }
 .footer-index .ubicacion {
-  display: flex;
-  flex-direction: column;
+  padding: 10px;
 }
 .footer-index .ubicacion h3 {
   padding: 10px;
@@ -122,19 +171,30 @@
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 30px;
 }
-.footer-index .ubicacion .mapa {
-  height: 245px;
+.footer-index .ubicacion .mapa-contenedor {
+  position: relative;
+  padding-bottom: 60%;
+  height: 0;
+  overflow: hidden;
 }
-
+.footer-index .ubicacion .mapa {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
 @media (max-width: 768px) {
   .footer-index {
-    display: flex;
-    flex-direction: column;
+    grid-template-columns: 1fr;
   }
-  .footer-index .mapa {
-    max-width: fit-content;
+  .footer-index .info-footer,
+  .footer-index .ubicacion {
+    text-align: center;
   }
 }
+
 #quienes-somos .nosotros-portada {
   display: flex;
   justify-content: space-evenly;
