@@ -1,7 +1,8 @@
+$formulario-max-width: 650px;
 .formulario{
     font-size: 17px;
     margin: 30px auto;
-    width: 650px;
+    width: $formulario-max-width;
     border-radius: 5px;
     color: white;
     background-color: $bg-color;
@@ -11,22 +12,25 @@
     display: grid;
     row-gap: 10px;
     .dato{
-        display: flex;
-        flex-direction: column;
-        border: none;
-        margin-bottom: 5px;
+      display: flex;
+      flex-direction: column;
+      border: none;
+      margin-bottom: 5px;
     }
     .boton-formulario{
-        @include boton(red, white);
-        &:hover{
-            font-weight: bold;
-            background-color: black;
-        }
+      @include boton(red, white);
+      &:hover {
+        font-weight: bold;
+        background-color: black;
+      }
     }
-}
-@media(max-width:768px){
-    .formulario{
-        max-width: fit-content;
-        padding: 10px;
+    @media (max-width:768px){
+      width: 100%;
+      padding: 15px;
+      margin: 15px auto;
+      font-size: 14px;
+      .dato{
+        margin-bottom: 10px;
+      }
     }
 }
