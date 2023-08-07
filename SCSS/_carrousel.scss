@@ -7,6 +7,9 @@
   .carousel-inner{
     position: relative;
   }
+  .carousel-inner img{
+    height: 500px;
+  }
   .carousel-item{
     display: none;
   }

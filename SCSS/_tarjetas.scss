@@ -1,18 +1,19 @@
 .tarjetas{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     text-align: center;
     .tarjeta{
+        width: 400px;
         border: solid 3px black;
+        border-radius: 5px;
         margin: 10px;
         display: flex;
         flex-direction: column;
         padding: 12px 10px;
         img{
-            height: 150px;
-            width: 355px;
-            margin-left: 18px;
+            width: 100%;
+            height: 100%;
         }
         h4{
             font-size: 22px;
