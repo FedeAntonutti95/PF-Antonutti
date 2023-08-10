@@ -24,7 +24,7 @@
 .navegador ul li a {
   color: rgb(247, 39, 39);
   display: block;
-  padding: 15px 10px;
+  padding: 10px;
   text-decoration: none;
   font-size: 25px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
@@ -64,6 +64,11 @@
 
 .carousel-inner img {
   height: 500px;
+}
+@media (max-width: 768px) {
+  .carousel-inner img {
+    height: 300px;
+  }
 }
 
 .carousel-item {
